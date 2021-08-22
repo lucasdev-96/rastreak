@@ -16,6 +16,9 @@ function Hero() {
       <a href="#main">Contato</a>
       </span>
     </header>
+    <div className="hero_msg">
+    <h1>Tranquilidade para você, sua família ou seu negócio!</h1>
+    </div>
    </section>
   )
 }
