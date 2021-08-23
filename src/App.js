@@ -1,13 +1,16 @@
 import './App.css';
-import About from './components/About';
-import Hero from './components/Hero'
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import React from 'react';
+import Hero from './components/Hero';
 
 function App() {
   return (
-    <>
-   <Hero />
-   <About />
-    </>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Hero} />
+      </Switch>
+    </BrowserRouter>
+
   );
 }
 

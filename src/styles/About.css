@@ -1,0 +1,22 @@
+main {
+  background-color: white;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  padding-top:20px;
+}
+
+.span {
+  margin-left: 10px;
+  font-size: 38px;
+}
+
+.teste {
+  opacity: 1;
+  transition: opacity 250ms, transform 250ms;
+}
+
+.test2 {
+  transform: translateX(-200%);
+  opacity: 0;
+}
