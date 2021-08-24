@@ -11,19 +11,18 @@
 
 @keyframes  blur {
   0% {
-    backdrop-filter: blur(0px);
+    backdrop-filter: blur(10px);
   }
   100% {
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(0);
   }
 }
 
 .blur {
   background-color: #02031586;
-  backdrop-filter: blur(7px);
   height: 100%;
   animation-name: blur;
-  animation-duration: 2s;
+  animation-duration: 4s;
 }
 
 .blur > header {
@@ -49,7 +48,6 @@
 
 .links > a:hover {
   color: yellow;
-  transform: scale(1.5);
 }
 
 .header_img {
@@ -88,7 +86,6 @@
   }
   50% {
     transform:translate(0, 0);
-    opacity: 0.5;
   }
   100% {
     opacity: 1;

@@ -1,22 +1,63 @@
 main {
   background-color: white;
   height: 60vh;
+  padding-top:20px;
+  width:100%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+main > div {
   display: flex;
   justify-content: center;
-  padding-top:20px;
 }
 
 .span {
   margin-left: 10px;
   font-size: 38px;
+  font-weight: bold;
 }
 
-.teste {
-  opacity: 1;
-  transition: opacity 250ms, transform 250ms;
+#about {
+  display: flex;
+  justify-content:center;
 }
 
-.test2 {
-  transform: translateX(-200%);
-  opacity: 0;
+ul {
+  font-size: 24px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+  font-size:  14px;
+}
+
+.infos {
+  max-width: 800px;
+  text-align: justify;
+  padding: 50px;
+}
+
+.infos p {
+  font-size: 14px;
+}
+
+.infos h1 {
+  font-size: 18px;
+}
+
+.banner {
+  padding: 20px;
+}
+
+.family {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 1460px;
+  margin: auto;
+  text-align: justify;
 }
