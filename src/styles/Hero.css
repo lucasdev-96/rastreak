@@ -25,7 +25,7 @@
   animation-duration: 4s;
 }
 
-.blur > header {
+ header {
   padding: 20px;
   display: flex;
   justify-content: space-around;
