@@ -1,9 +1,10 @@
 import React from 'react';
 import '../styles/Hero.css';
-import About from './About';
-import Header from './Header';
+import About from '../components/About';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
-function Hero() {
+function Home() {
   return (
     <>
       <section className="hero_img">
@@ -14,9 +15,14 @@ function Hero() {
           </div>
         </div>
       </section>
-      <About />
+      <div>
+        <About />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </>
   );
 }
 
-export default Hero;
+export default Home;
