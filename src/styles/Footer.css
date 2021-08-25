@@ -1,9 +1,9 @@
 .footer_father {
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 400px;
   width: 100%;
-  background-color: #0b0738;
+  background-color: #02010a;
   margin-top: 50px;
   color: white;
 }
@@ -19,11 +19,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-top: 4px solid #ffbb2c;
   height: 300px;
   width: 500px;
-  background-color: rgb(49, 47, 47);
-  justify-content:center;
+  justify-content: space-evenly;
+  margin-top: 20px;
 }
 
 .footer_info img{
@@ -34,11 +33,9 @@
   display: flex;
 }
 
-.apps button {
+.apps a {
   cursor: pointer;
   margin-left: 10px;
-  background-color: rgb(49, 47, 47);
-  border: none;
 }
 
 .footer_info .logo {
@@ -48,4 +45,48 @@
 
 .footer_info .logo:hover {
   transform: scale(1.2)
+}
+
+.author {
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer_father span { 
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.infos_person {
+  padding: 30px;
+  max-width: 500px;
+
+}
+
+.icons_info {
+  font-size: 25px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.icons_info:hover {
+  transform: scale(1.2);
+  color: #feb42b;
+}
+
+.apps a:hover {
+ opacity: 0.8;
+}
+
+.author:hover {
+  color: #feb42b;
+}
+
+
+.footer_info:hover {
+  color: #feb42b;
 }
