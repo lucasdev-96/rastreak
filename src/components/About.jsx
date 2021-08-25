@@ -1,6 +1,10 @@
 import React from 'react';
 import '../styles/About.css';
 import Zoom from 'react-reveal/Zoom';
+import { MdBusinessCenter } from 'react-icons/md';
+import { BsEyeFill } from 'react-icons/bs';
+import { GiTrophy } from 'react-icons/gi';
+// import CountUp from 'react-countup';
 import banner from '../img/mbanner1.png';
 
 function About() {
@@ -36,6 +40,7 @@ function About() {
           <div className="infos">
             <Zoom duration={2000}>
               <h1>Missão</h1>
+              <MdBusinessCenter className="icons" />
               <p>
                 Com o pensamento totalmente direcionado a satisfação de seus
                 clientes no quesito logística,
@@ -48,6 +53,7 @@ function About() {
             </Zoom>
             <Zoom duration={2000} delay={1000}>
               <h1>Visão</h1>
+              <BsEyeFill className="icons" />
               <p>
                 Manter-se uma organização perene e sustentável a longo prazo,
                 com foco na performance dos serviços executados no desenvolvimento dos
@@ -60,6 +66,7 @@ function About() {
             </Zoom>
             <Zoom duration={2000} delay={2000}>
               <h1>Valores</h1>
+              <GiTrophy className="icons" />
               <li>- Valorização do homem.</li>
               <li> - Comprometimento com o cliente.</li>
               <li>- Qualidade nos serviços.</li>

@@ -31,25 +31,29 @@ ul {
 
 li {
   list-style: none;
-  font-size:  14px;
+  font-size:  18px;
 }
 
 .infos {
   max-width: 800px;
   text-align: justify;
-  padding: 50px;
+  padding: 20px;
+  background-color: rgba(128, 128, 128, 0.048);
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
 .infos p {
-  font-size: 14px;
-}
-
-.infos h1 {
   font-size: 18px;
 }
 
+.infos h1 {
+  font-size: 20px;
+  cursor: pointer;
+}
+
 .banner {
-  padding: 20px;
+  padding: 50px;
 }
 
 .family {
@@ -60,4 +64,22 @@ li {
   max-width: 1460px;
   margin: auto;
   text-align: justify;
+}
+
+.family p {
+  font-size: 1.3rem;
+} 
+
+.icons {
+ font-size: 25px;
+ padding-bottom: 10px;
+}
+
+.icons:hover {
+  color: #feb42b;
+  transform: scale(1.5)
+}
+
+.infos h1:hover {
+  color: #1acc8d;
 }
