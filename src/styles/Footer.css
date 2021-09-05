@@ -12,7 +12,6 @@
   display: flex;
   max-width: 1200px;
   margin: auto;
-
 }
 
 .footer_info {
@@ -64,7 +63,8 @@
 .infos_person {
   padding: 30px;
   max-width: 500px;
-
+  display: flex;
+  flex-direction:column;
 }
 
 .icons_info {
@@ -89,4 +89,9 @@
 
 .footer_info:hover {
   color: #feb42b;
+}
+
+.infos_person span {
+  display: flex;
+  align-self: flex-start;
 }

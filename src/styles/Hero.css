@@ -42,12 +42,24 @@
   font-weight: 500;
 }
 
+.links > button {
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  border: none;
+  background-color: rgba(255, 0, 0, 0);
+  font-weight: 500;
+}
+
 .header_img:hover {
   transform: scale(1.2);
 }
 
 .links > a:hover {
-  color: yellow;
+  color: #feb42b;
 }
 
 .header_img {

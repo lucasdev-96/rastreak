@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 import logo from '../img/logo.png';
@@ -15,6 +18,7 @@ function Header() {
         <a href="#about">Quem somos</a>
         <a href="#main">Preços</a>
         <a href="#main">Contato</a>
+        <a onClick={() => history.push('/fotos')}>Fotos</a>
       </span>
     </header>
   );

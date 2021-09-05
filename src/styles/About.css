@@ -17,7 +17,7 @@ main > div {
   font-weight: bold;
 }
 
-#about {
+#about_father {
   display: flex;
   justify-content:center;
 }
@@ -52,7 +52,12 @@ li {
 }
 
 .banner {
-  padding: 50px;
+  padding: 40px;
+}
+
+.banner img {
+  width: 600px;
+  border-radius: 15px;
 }
 
 .family {

@@ -5,7 +5,7 @@ import { MdBusinessCenter } from 'react-icons/md';
 import { BsEyeFill } from 'react-icons/bs';
 import { GiTrophy } from 'react-icons/gi';
 // import CountUp from 'react-countup';
-import banner from '../img/mbanner1.png';
+import banner from '../img/9.jpeg';
 
 function About() {
   return (
@@ -15,7 +15,7 @@ function About() {
           <span className="span">Grupo</span>
           <span className="span" style={{ color: '#ffbb2c' }}>Rastrek</span>
         </div>
-        <div className="family">
+        <div className="family" id="about">
           <h3>Tranquilidade para você, sua família ou seu negócio</h3>
           <p>
             A Rastrek é uma empresa que atua na área de segurança veicular desde 2012.
@@ -33,7 +33,7 @@ function About() {
             fiscalizando o uso da frota no cumprimento de suas atribuições.
           </p>
         </div>
-        <section id="about">
+        <section id="about_father">
           <div className="banner">
             <img src={banner} alt="banner" />
           </div>

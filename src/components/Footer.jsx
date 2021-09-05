@@ -37,7 +37,7 @@ function Footer() {
           </span>
           <span>
             <HiLocationMarker className="icons_info" />
-            Rua Regente Feijó, 294
+            Rua Regente Feijó, 294 - Centro
           </span>
           <span>
             <a
