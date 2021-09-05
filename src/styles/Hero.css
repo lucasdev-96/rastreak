@@ -31,7 +31,14 @@
   justify-content: space-around;
 }
 
+.HeaderPictures  {
+  background-color: black;
+}
 
+.links {
+  display: flex;
+  align-items: center;
+}
 
 .links > a {
   cursor: pointer;
@@ -42,17 +49,7 @@
   font-weight: 500;
 }
 
-.links > button {
-  cursor: pointer;
-  font-size: 20px;
-  text-decoration: none;
-  margin-right: 20px;
-  color: rgb(255, 255, 255);
-  font-weight: 500;
-  border: none;
-  background-color: rgba(255, 0, 0, 0);
-  font-weight: 500;
-}
+
 
 .header_img:hover {
   transform: scale(1.2);

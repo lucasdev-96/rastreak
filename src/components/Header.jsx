@@ -8,15 +8,15 @@ import '../styles/Hero.css';
 
 function Header() {
   const history = useHistory();
-  const className = history.location.pathname === '/' ? 'header' : '';
+  const className = history.location.pathname === '/fotos' ? 'HeaderPictures' : '';
   return (
-    <header className={className}>
+    <header className={`header ${className}`}>
       <div>
         <img src={logo} alt="logo" className="header_img" />
       </div>
       <span className="links">
+        <a onClick={() => history.push('/')}>Página inicial</a>
         <a href="#about">Quem somos</a>
-        <a href="#main">Preços</a>
         <a href="#main">Contato</a>
         <a onClick={() => history.push('/fotos')}>Fotos</a>
       </span>
