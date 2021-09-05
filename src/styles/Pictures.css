@@ -1,14 +1,22 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
 .father_pictures {
   max-width: 1450px;
   margin: auto;
   text-align: center;
-  margin-top: 10vh;
   display:  flex;
   justify-content: center;
   padding: 20px;
   flex-wrap: wrap;
-  background-color:rgba(0, 0, 0, 0.26);
+  background-color:rgba(255, 255, 255, 0.26);
   border-radius: 20px;
+  box-shadow: 3px 5px 5px 5px #feb42b;
 }
 
 .pattern_pictures {
@@ -16,7 +24,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  padding: 50px;
 }
+
 
 .pictures {
   margin-left: 20px;
@@ -24,6 +34,7 @@
   width: 500px;
   border-radius: 20px;
   border: 5px solid #feb42b;
+  box-shadow: 2px 2px 2px 2px #feb42b;
 }
 
 .pictures:hover {
