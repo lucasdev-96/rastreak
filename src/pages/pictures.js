@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/Pictures.css';
 import Header from '../components/Header';
 import arrayPictures from '../services/arrayOfPictures';
+import Footer from '../components/Footer';
 
 function pictures() {
   return (
@@ -14,6 +15,9 @@ function pictures() {
           ))}
         </section>
       </div>
+      <section>
+        <Footer />
+      </section>
     </>
   );
 }

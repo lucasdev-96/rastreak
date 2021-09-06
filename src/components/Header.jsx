@@ -17,7 +17,7 @@ function Header() {
       <span className="links">
         <a onClick={() => history.push('/')}>Página inicial</a>
         <a href="#about">Quem somos</a>
-        <a href="#main">Contato</a>
+        <a href="#contato">Contato</a>
         <a onClick={() => history.push('/fotos')}>Fotos</a>
       </span>
     </header>

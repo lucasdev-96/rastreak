@@ -1,9 +1,10 @@
 main {
-  background-color: white;
+  background-color: #f5f5ff34;
   padding-top:20px;
   width:100%;
   margin: auto;
-  margin-top: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 main > div {
