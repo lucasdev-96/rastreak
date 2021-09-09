@@ -38,42 +38,48 @@ function About() {
             <img src={banner} alt="banner" />
           </div>
           <div className="infos">
-            <Zoom duration={2000}>
-              <h1>Missão</h1>
-              <MdBusinessCenter className="icons" />
-              <p>
-                Com o pensamento totalmente direcionado a satisfação de seus
-                clientes no quesito logística,
-                manutenção de frota e segurança, disponibilizando informações em tempo
-                real sobre os veículos de nossos clientes,
-                permitindo um controle de frota e logística ágil, na tomada de decisões
-                , reduzindo significativamente os custos no transporte e fiscalizando
-                o uso da frota no cumprimento de suas atribuições.
-              </p>
-            </Zoom>
-            <Zoom duration={2000} delay={1000}>
-              <h1>Visão</h1>
-              <BsEyeFill className="icons" />
-              <p>
-                Manter-se uma organização perene e sustentável a longo prazo,
-                com foco na performance dos serviços executados no desenvolvimento dos
-                funcionários e suas habilidades, aumentando a sinergia entre as áreas
-                organizacionais,
-                possibilitando assim o aumento da eficácia organizacional,
-                agregando valor para seus proprietários,
-                clientes, fornecedores e para a sociedade em que atua.
-              </p>
-            </Zoom>
-            <Zoom duration={2000} delay={2000}>
-              <h1>Valores</h1>
-              <GiTrophy className="icons" />
-              <li>- Valorização do homem.</li>
-              <li> - Comprometimento com o cliente.</li>
-              <li>- Qualidade nos serviços.</li>
-              <li>- Aperfeiçoamento da tecnologia.</li>
-              <li>- Segurança efetiva;</li>
-              <li>- Fortalecimento do diálogo com o cliente</li>
-            </Zoom>
+            <div className="effect">
+              <Zoom duration={2000}>
+                <h1>Missão</h1>
+                <MdBusinessCenter className="icons" />
+                <p>
+                  Com o pensamento totalmente direcionado a satisfação de seus
+                  clientes no quesito logística,
+                  manutenção de frota e segurança, disponibilizando informações em tempo
+                  real sobre os veículos de nossos clientes,
+                  permitindo um controle de frota e logística ágil, na tomada de decisões
+                  , reduzindo significativamente os custos no transporte e fiscalizando
+                  o uso da frota no cumprimento de suas atribuições.
+                </p>
+              </Zoom>
+            </div>
+            <div className="effect">
+              <Zoom duration={2000} delay={1000}>
+                <h1>Visão</h1>
+                <BsEyeFill className="icons" />
+                <p>
+                  Manter-se uma organização perene e sustentável a longo prazo,
+                  com foco na performance dos serviços executados no desenvolvimento dos
+                  funcionários e suas habilidades, aumentando a sinergia entre as áreas
+                  organizacionais,
+                  possibilitando assim o aumento da eficácia organizacional,
+                  agregando valor para seus proprietários,
+                  clientes, fornecedores e para a sociedade em que atua.
+                </p>
+              </Zoom>
+            </div>
+            <div className="effect">
+              <Zoom duration={2000} delay={2000}>
+                <h1>Valores</h1>
+                <GiTrophy className="icons" />
+                <li>- Valorização do homem.</li>
+                <li> - Comprometimento com o cliente.</li>
+                <li>- Qualidade nos serviços.</li>
+                <li>- Aperfeiçoamento da tecnologia.</li>
+                <li>- Segurança efetiva;</li>
+                <li>- Fortalecimento do diálogo com o cliente</li>
+              </Zoom>
+            </div>
           </div>
         </section>
       </main>

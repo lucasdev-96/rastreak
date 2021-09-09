@@ -43,6 +43,10 @@ li {
   margin-right: 10px;
 }
 
+.effect {
+  padding: 10px;
+}
+
 .infos p {
   font-size: 18px;
 }
@@ -76,8 +80,9 @@ li {
 } 
 
 .icons {
- font-size: 25px;
+ font-size: 35px;
  padding-bottom: 10px;
+ cursor: pointer;
 }
 
 .icons:hover {
@@ -87,4 +92,8 @@ li {
 
 .infos h1:hover {
   color: #1acc8d;
+}
+
+.effect h1 {
+  padding: 10px;
 }

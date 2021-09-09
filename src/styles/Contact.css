@@ -49,6 +49,7 @@ form {
   margin-left: 20px;
   border: 1px solid gray;
   font-size:20px;
+  font-weight: 600;
 }
 
 .inputs {
@@ -89,6 +90,7 @@ textarea{
   padding: 20px;
   cursor: pointer;
   background-color:#01e673b6;
+  border-radius: 10px;
 }
 
 .whatssap_button > a {
@@ -99,5 +101,6 @@ textarea{
 }
 
 .whatssap_button:hover {
-  transform: scale(1.2)
+  transform: scale(1.2);
+  background-color: #01e675;
 }
