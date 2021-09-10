@@ -9,6 +9,8 @@ import '../styles/Hero.css';
 function Header() {
   const history = useHistory();
   const className = history.location.pathname === '/fotos' ? 'HeaderPictures' : '';
+  const { location: { pathname } } = history;
+  const validatePath = pathname === '/' && true;
   return (
     <header className={`header ${className}`}>
       <div>
@@ -16,8 +18,8 @@ function Header() {
       </div>
       <span className="links">
         <a onClick={() => history.push('/')}>Página inicial</a>
-        <a href="#about">Quem somos</a>
-        <a href="#contato">Contato</a>
+        {validatePath ? <a href="#about">Quem somos</a> : null}
+        {validatePath ? <a href="#contato">Contato</a> : null}
         <a onClick={() => history.push('/fotos')}>Fotos</a>
       </span>
     </header>
