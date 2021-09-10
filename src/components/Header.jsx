@@ -18,8 +18,12 @@ function Header() {
       </div>
       <span className="links">
         <a onClick={() => history.push('/')}>Página inicial</a>
-        {validatePath ? <a href="#about">Quem somos</a> : null}
-        {validatePath ? <a href="#contato">Contato</a> : null}
+        {validatePath ? (
+          <>
+            <a href="#about">Quem somos</a>
+            <a href="#contato">Contato</a>
+          </>
+        ) : null}
         <a onClick={() => history.push('/fotos')}>Fotos</a>
       </span>
     </header>
