@@ -77,7 +77,7 @@ input:-moz-placeholder {
 }
 
 textarea{
-  width: 90%;
+  width: 95%;
   height: 150px;
   resize: none;
   border: 1px solid gray;
