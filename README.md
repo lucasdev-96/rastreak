@@ -16,4 +16,4 @@
 <li>Npm install</li>
 <li>Npm run dev</li>
 
-<h3>Link do projeto: <a href="https://rastreak-piracicaba.herokuapp.com/">Rastreak Piracicaba</a></h3>
+<h3>Link do projeto: <a href="https://rastreak-piracicaba.herokuapp.com/" target="_blank">Rastreak Piracicaba</a></h3>
