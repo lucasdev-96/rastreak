@@ -2,9 +2,9 @@
 
 ---
 
-<ul>Tecnologias usadas</ul>
+<h3>Tecnologias usadas</h3>
 <li>React</li>
-<li>React Reaveal</li>
+<li>React Reveal</li>
 <li>Hooks</li>
 <li>CSS3</li>
 <li>JSX</li>
@@ -16,4 +16,4 @@
 <li>Npm install</li>
 <li>Npm run dev</li>
 
-<h3>Link do projeto: <a href="https://rastreak-piracicaba.herokuapp.com/"></a></h3>
+<h3>Link do projeto: <a href="https://rastreak-piracicaba.herokuapp.com/">Rastreak Piracicaba</a></h3>
