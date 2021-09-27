@@ -5,7 +5,9 @@ const app = express();
 
 app.use('/', express.static(path.join(__dirname, '.', 'build')));
 
-app.listen(process.env.PORT || 3000, (err) => {
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, (err) => {
   if (err) console.log(err);
-  console.log('tudo ok');
+  console.log(`tudo ok ${PORT}`);
 });
