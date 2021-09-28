@@ -97,3 +97,38 @@ li {
 .effect h1 {
   padding: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  #about_father {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner img {
+    width: 200px;
+    border-radius: 15px;
+  }
+  .infos h1 {
+    font-size: 16px;
+  }
+  .icons {
+    font-size: 16px;
+   }
+   
+.family p {
+  font-size: 13px;
+} 
+.span {
+  font-size: 20px;
+}
+.infos p {
+  font-size: 13px;
+}
+ul {
+  font-size: 13px;
+}
+
+li {
+  list-style: none;
+  font-size:  13px;
+}
+}

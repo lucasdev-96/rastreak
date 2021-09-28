@@ -5,7 +5,6 @@
   background-size: cover;
   background-position: center center;
   opacity: 1;
-   width: 100%;
   
 }
 
@@ -98,5 +97,19 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero_msg  h1 {
+    line-height: 1.2em;
+  font-size: 1.6rem;
+  word-break: break-all;
+  }
+  .header_img {
+    width: 120px;
+  }
+  .links > a {
+  font-size: 10px;
   }
 }
