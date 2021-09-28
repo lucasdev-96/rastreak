@@ -9,7 +9,7 @@ import apple from '../img/apple.png';
 function Footer() {
   return (
     <footer className="footer_father">
-      <section>
+      <section className="section_footer">
         <div className="footer_info">
           <img src={logoFooter} className="logo" alt="logo" />
           <p>Baixe nosso Aplicativo</p>

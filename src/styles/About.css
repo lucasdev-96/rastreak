@@ -98,7 +98,7 @@ li {
   padding: 10px;
 }
 
-@media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
   #about_father {
     display: flex;
     flex-direction: column;
@@ -131,4 +131,4 @@ li {
   list-style: none;
   font-size:  13px;
 }
-}
+} 

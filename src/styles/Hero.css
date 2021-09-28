@@ -5,7 +5,10 @@
   background-size: cover;
   background-position: center center;
   opacity: 1;
-  
+}
+
+.test {
+  width: 100%;
 }
 
 @keyframes  blur {
@@ -24,7 +27,7 @@
   animation-duration: 4s;
 }
 
- header {
+ .header {
   padding: 20px;
   display: flex;
   justify-content: space-around;
@@ -100,7 +103,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media  screen and (max-width: 768px) {
   .hero_msg  h1 {
     line-height: 1.2em;
   font-size: 1.6rem;

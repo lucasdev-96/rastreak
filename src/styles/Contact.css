@@ -104,3 +104,12 @@ textarea{
   transform: scale(1.2);
   background-color: #01e675;
 }
+
+@media screen and (max-width: 768px) {
+  form {
+    width: 100%;
+  }
+  .input {
+    width: 100%;
+  }
+}
