@@ -13,7 +13,10 @@
 
 <h3>Para Rodar o projeto</h3>
 
-<li>Npm install</li>
-<li>Npm run dev</li>
+```bash 
+npm install
+npm run dev
+```
 
-<h3>Link do projeto: <a href="https://rastreak-piracicaba.herokuapp.com/" target="_blank">Rastreak Piracicaba</a></h3>
+
+<h5>Link do projeto: <a href="https://rastreak-piracicaba.herokuapp.com/" target="_blank">Rastreak Piracicaba</a></h5>
